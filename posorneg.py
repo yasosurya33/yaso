@@ -1,4 +1,3 @@
-print('Enter the value')
 a=int(input())
 if(a<0):
     print('The value is Negative')
