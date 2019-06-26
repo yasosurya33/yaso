@@ -1,6 +1,2 @@
 i = int(input())
-num = 1
-while num != 6:
-    sum = i*num
-    num = num + 1
-    print(sum)
+print(i*1, i*2 ,i*3, i*4, i*5)
