@@ -3,7 +3,7 @@ i = 1
 fir = 0
 sec = 1
 listu = []
-while (i < num):
+while (i <= num):
     if (i <= 1):
         Next = i
     else:
