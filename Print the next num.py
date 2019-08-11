@@ -1,2 +1,3 @@
 d=int(input())
-print(d+1)
+next_num=d+1
+print(next_num)
