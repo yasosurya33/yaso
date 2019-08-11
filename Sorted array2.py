@@ -1,5 +1,5 @@
-a = int(input())
-b=list(map(int,input().split()))[:a]
-b.sort()
-for i in range(a):
-    print(b[i],end=" ")
+i = int(input())
+c=list(map(int,input().split()))[:i]
+c.sort()
+for a in range(i):
+    print(c[a],end=" ")
