@@ -1,5 +1,5 @@
 num = int(input())
-i = 0
+i = 1
 fir = 0
 sec = 1
 listu = []
