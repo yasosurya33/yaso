@@ -1,2 +1,2 @@
 s,k=input().split()
-print(f'{s}{k}')
+print(s+k)
