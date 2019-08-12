@@ -10,5 +10,9 @@ for i in range(l):
         even.append(dup[i])
     else:
         odd.append(dup[i])
+fin=[]
 for i in range(l//2):
-    print(f'{odd[i]}{even[i]}',end="")
+    fin.append(odd[i])
+    fin.append(even[i])
+for i in fin:
+    print(i,end="")
