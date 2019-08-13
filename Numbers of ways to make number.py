@@ -1,7 +1,7 @@
 num=int(input())
 sum=0
 a=0
-for i in range(num+1):
+for i in range(1,num+1):
     while a<num:
         for j in range(2):
             if a < num:
