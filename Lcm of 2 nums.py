@@ -1,7 +1,15 @@
+def lcm(x,y):
+    if x>y:
+        g=x
+    else:
+        g=y
+    while True:
+        if g%x==0 and g%y==0:
+            ans=g
+            break
+        g+=1
+    return g
+
+
 a,b=map(int,input().split())
-if a%b==0:
-    print(a)
-elif b%a==0:
-    print(b)
-else:
-    print(a*b)
+print(lcm(a,b))
